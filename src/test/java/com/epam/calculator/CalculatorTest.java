@@ -64,7 +64,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoSubtractShouldDivideWhenNumbersPositive() {
+    public void testDoSubtractShouldSubtractWhenNumbersPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -74,7 +74,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoSubtractShouldDivideWhenNumbersNegative() {
+    public void testDoSubtractShouldSubtractWhenNumbersNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -84,7 +84,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoSubtractShouldDivideWhenNumbersPositiveAndNegative() {
+    public void testDoSubtractShouldSubtractWhenNumbersPositiveAndNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -94,7 +94,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoMultiplyShouldDivideWhenNumbersPositive() {
+    public void testDoMultiplyShouldMultiplyWhenNumbersPositive() {
         //given
         Calculator calculator = new Calculator();
         //when
@@ -104,7 +104,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDoMultiplyShouldDivideWhenNumbersNegative() {
+    public void testDoMultiplyShouldMultiplyWhenNumbersNegative() {
         //given
         Calculator calculator = new Calculator();
         //when
